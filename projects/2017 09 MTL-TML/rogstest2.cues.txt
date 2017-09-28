@@ -7,17 +7,17 @@
 /rogs1/grain/trigger/variance/rateVar/randomnessRate 0.000000
 /rogs1/grain/trigger/variance/rateVar/spread 0.000000
 /rogs1/grain/trigger/variance/on 0
-/rogs1/grain/trigger/freq 53.000000
+/rogs1/grain/trigger/freq 51.000000
 /rogs1/grain/trigger/lock 0
 /rogs1/grain/trigger/mode 0
 /rogs1/grain/trigger/note 0
 /rogs1/grain/duration 320.000000
-/rogs1/grain/onsetVar 3.000000
+/rogs1/grain/onsetVar 1.000000
 /rogs1/grain/overlap 100
 # 
 /rogs1/mapGain/data/active 1
 /rogs1/mapGain/function/parameters.1 0.000000
-/rogs1/mapGain/input/address /signals/sig3
+/rogs1/mapGain/input/address /signals/sig2
 /rogs1/mapGain/input/max 1.000000
 /rogs1/mapGain/input/min 0.000000
 /rogs1/mapGain/output/max 1.000000
@@ -28,7 +28,7 @@
 /rogs1/mapGain/process/rampTime 0.000000
 /rogs1/mapGain/slide/down 0.000000
 /rogs1/mapGain/slide/up 0.000000
-/rogs1/mapGain/active 0
+/rogs1/mapGain/active 1
 /rogs1/mapGain/scalebypass 1
 # 
 /rogs1/mapOnsetVar/data/active 1
@@ -174,7 +174,7 @@
 /rogs1/mapTurn/scalebypass 1
 /rogs1/audio/gain -12.000000
 /rogs1/audio/mute 1
-/rogs1/file/open "Macintosh HD:/Users/sasan/Documents/Max 7/Packages/Sasan/DEMO/BachCello.aiff"
+/rogs1/file/open "Macintosh HD:/Users/sasan/Documents/MaxTracks/love.aiff"
 /rogs1/mapperGate/gain 0
 /rogs1/mapperGate/onsetVar 2
 /rogs1/mapperGate/pitch 0
@@ -185,7 +185,7 @@
 /rogs1/mapperGate/spread 0
 /rogs1/mapperGate/trigger 0
 /rogs1/mapperGate/turn 0
-/rogs1/mod/gain 12.000000
+/rogs1/mod/gain 15.000000
 /rogs1/mod/onsetVar 10.000000
 /rogs1/mod/pitch -2400.000000
 /rogs1/mod/pitchVar 0.000000
@@ -199,7 +199,7 @@
 /rogs1/pan/rate 0.000000
 /rogs1/pan/spread 1.000000
 /rogs1/pitch/transpose 0.000000
-/rogs1/pitch/variation 1.000000
+/rogs1/pitch/variation 0.000000
 /rogs1/playback/direction 0
 /rogs1/playback/speed 1.000000
 /rogs1/playback/position 0.000000
@@ -209,9 +209,9 @@
 /rogs1/numChannels 2
 # 
 /rogs2/grain/trigger/variance/gainVar/randomnessRate 0.000000
-/rogs2/grain/trigger/variance/gainVar/range 0.000000
-/rogs2/grain/trigger/variance/rateVar/randomnessRate 0.000000
-/rogs2/grain/trigger/variance/rateVar/spread 0.000000
+/rogs2/grain/trigger/variance/gainVar/range 93.268593 93.268593
+/rogs2/grain/trigger/variance/rateVar/randomnessRate 2.571000
+/rogs2/grain/trigger/variance/rateVar/spread 57.416267
 /rogs2/grain/trigger/variance/on 0
 /rogs2/grain/trigger/freq 0.000000
 /rogs2/grain/trigger/lock 0
@@ -380,9 +380,9 @@
 /rogs2/mapTurn/slide/up 0.000000
 /rogs2/mapTurn/active 0
 /rogs2/mapTurn/scalebypass 1
-/rogs2/audio/gain -10.000000
+/rogs2/audio/gain -8.000000
 /rogs2/audio/mute 1
-/rogs2/file/open "Macintosh HD:/Users/sasan/Documents/Max 7/Packages/Sasan/DEMO/BachCello.aiff"
+/rogs2/file/open "Macintosh HD:/Users/sasan/Documents/MaxTracks/love.aiff"
 /rogs2/mapperGate/gain 1
 /rogs2/mapperGate/onsetVar 0
 /rogs2/mapperGate/pitch 0
@@ -415,38 +415,6 @@
 /rogs2/selection/range 0.000000
 /rogs2/waveform/normalize 0.000000
 /rogs2/numChannels 2
-# 
-# 
-/surg1/limiter/dcblocker/active 0
-/surg1/limiter/active 1
-/surg1/limiter/lookahead 64
-/surg1/limiter/mode exponential
-/surg1/limiter/postamp 0.000000
-/surg1/limiter/preamp 6.000000
-/surg1/limiter/release 300.000000
-/surg1/limiter/threshold -1.000000
-# 
-/surg1/record/file/type aiff
-/surg1/record/samptype int24
-/surg1/audio/gain 0.000000
-/surg1/audio/mute 1
-/surg1/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
-# 
-# 
-/surg2/limiter/dcblocker/active 1
-/surg2/limiter/active 1
-/surg2/limiter/lookahead 64
-/surg2/limiter/mode exponential
-/surg2/limiter/postamp 0.000000
-/surg2/limiter/preamp 0.000000
-/surg2/limiter/release 300.000000
-/surg2/limiter/threshold 0.000000
-# 
-/surg2/record/file/type aiff
-/surg2/record/samptype int24
-/surg2/audio/gain 0.000000
-/surg2/audio/mute 1
-/surg2/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
 # 
 # ###########################################
 
